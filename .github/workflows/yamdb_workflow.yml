@@ -22,6 +22,7 @@ jobs:
 
       - name: Test with flake8 and local tests
         run: |
+          export SECRET_KEY=${{ secrets.SECRET_KEY }}
           python -m flake8
           pytest
 
