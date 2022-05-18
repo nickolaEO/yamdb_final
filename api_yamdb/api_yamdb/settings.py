@@ -8,12 +8,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DOTENV_PATH = os.path.join(os.path.dirname(BASE_DIR), 'infra', '.env')
 
-# load_dotenv(dotenv_path=DOTENV_PATH)
-load_dotenv()
+load_dotenv(dotenv_path=DOTENV_PATH)
+# load_dotenv()
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = os.getenv('SECRET_KEY')
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY')
+# SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False

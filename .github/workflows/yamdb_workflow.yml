@@ -43,7 +43,7 @@ jobs:
       - name: Push to DockerHub
         uses: docker/build-push-action@v2
         with:
-          context: "{{defaultContext}}:api_yamdb"
+          context: "https://github.com/nickolaEO/yamdb_final.git#main:api_yamdb"
           push: true
           tags: nickolaeo/infra_web:v1.0
 
