@@ -38,10 +38,7 @@
 
 Клонируйте репозиторий и перейдите в него в командной строке:
 ```sh
-git clone https://github.com/nickolaEO/infra_sp2.git
-```
-```sh
-cd infra_sp2
+git clone https://github.com/nickolaEO/yamdb_final.git && cd yamdb_final
 ```
 Перейдите в директорию с файлом _docker-compose.yaml_ и запустите контейнеры:
 ```sh
@@ -73,12 +70,12 @@ docker-compose down -v
 
 # Документация
 
-Для просмотра документации перейдите по адресу:
-http://localhost/redoc/
+Для просмотра документации к API перейдите по адресу:
+http://84.252.137.228/redoc/
 
 # Примеры запросов
 
-**GET**: http://localhost/api/v1/categories/  
+**GET**: http://84.252.137.228/api/v1/categories/  
 Пример ответа:
 ```json
 [
@@ -96,7 +93,7 @@ http://localhost/redoc/
 ]
 ```
 
-**POST**: http://localhost/api/v1/categories/  
+**POST**: http://84.252.137.228/api/v1/categories/  
 Тело запроса:
 ```json
 {
@@ -112,7 +109,7 @@ http://localhost/redoc/
 }
 ```
 
-**GET**: http://localhost/api/v1/users/  
+**GET**: http://84.252.137.228/api/v1/users/  
 Пример ответа:
 ```json
 [
