@@ -29,6 +29,10 @@
 - [Docker 20.10.14](https://www.docker.com/)
 - [Docker Compose 2.4.1](https://docs.docker.com/compose/)
 
+# URL's
+- http://84.252.137.228/api/v1
+- http://84.252.137.228/admin
+- http://84.252.137.228/redoc
 
 # Установка
 
