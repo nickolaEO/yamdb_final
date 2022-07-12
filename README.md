@@ -2,7 +2,7 @@
 
 # **YaMDb Project**
 
-### _СI и CD проекта api_yamdb_
+### _СI и CD проекта API YaMDb_
 
 # Описание
 
